@@ -1,0 +1,349 @@
+/*AQUÍ INICIA EL CSS PARA LA PAGINA PRINCIPAL "US.HMTL"*/
+
+body{
+    background: linear-gradient(#bdecb6, #3f7358);      
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.principal{
+
+    padding: 2em 0;
+
+}
+
+.encabezado{
+
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h1 img{
+    
+    text-align: center;
+    
+}
+
+p{
+    font-size: 20px;
+    margin: 40px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+.puung{   
+    display:block;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #bdecb6;
+}
+
+.love{
+    
+    text-align: center;
+    color: #7E9F2E;
+    margin: 20px 0;
+    text-shadow: 2px 2px #bdecb6;
+
+}
+
+#c{
+
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#r{
+
+    color: #7E9F2E;
+    text-align: center;
+
+}
+
+.mv{
+
+    height: 440px;
+    margin: 0 auto;
+
+}
+
+.mvlista{
+
+    width: 40%;
+    display: inline-block;
+
+}
+
+.lis{
+
+    margin: 0 0 0 85px;
+    width: 40%;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+.lis:before{
+    content: "♡ ";
+}
+
+.lis:hover{
+
+    font-size: 21px;
+    transition: 100ms;
+
+}
+
+.lis a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.lis a:last-child:hover{
+    text-decoration: underline;
+}
+
+.lovers{
+
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #bdecb6;
+
+}
+
+.frase{
+
+    padding: 0 0 0 15px;
+
+}
+
+.sub{
+
+    margin: 25px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.subt{
+
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 25px;
+
+}
+
+/*AQUÍ INICIA EL CSS PARA LA TIENDA DE BESITOS*/
+
+
+header{
+
+    background-color: #00b09c;
+    padding: 20px 0;
+
+}
+
+.caja{
+
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+nav {
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+
+nav li{
+
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+
+    text-transform: uppercase;
+    color: #902043;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+
+    color: darkseagreen;
+    text-decoration: underline;
+
+}
+
+
+.bs {
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 100px;
+
+}
+
+.bs li{
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+
+}
+
+.bs li:active{
+
+    color: aqua;
+
+}
+
+.bs li:hover{
+
+    border-color: darkseagreen;
+
+}
+
+
+.bs h2{
+
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.bs li:hover h2{
+
+    font-size: 33px;
+
+}
+
+.dc{
+
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+
+footer{
+
+    margin: 20px 0px 0 0;
+    text-align: center;
+    background: url(fisher_atmosphere_81.jpg);
+    padding: 100px;
+}
+
+.cpr footer{
+
+    text-align: center;
+
+}
+
+/*AQUÍ INICIA EL CSS PARA LA PARTE CONTACTO */
+
+main{
+
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form{
+
+    margin: 40px 0;
+
+}
+
+form label, form legend{
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+.padron{
+
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+
+.enviar input{
+
+    width: 20%;
+}
+
+.checkbox{
+
+    margin: 20px 0;
+
+}
+
+.enviar{
+
+    width: 40%; 
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+
+    background-color: darkslategray;
+    transform: scale(1.2);
+
+}
+
+table{
+
+    margin: 40px 40px;
+        
+}
+
+thead{
+
+    background-color: lightseagreen;
+    font-weight: bold;
+
+}
+
+td, th{
+
+    border: 1px solid #000000;
+    padding: 20px 20px;
+
+}
+
